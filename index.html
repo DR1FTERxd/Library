@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="popUp">    
+    <form id="book-form" action="/js.js">
+        <span class="close">&times;</span>
+            <div class="formbox">
+                <label for="name">Book</label>
+                <input type="text" id="name" placeholder="Nam" >
+            </div>
+            <div class="formbox">
+                <label for="pages">pages</label>
+                <input type="text" id="pages" placeholder="pag" >
+            </div>
+            <div class="formbox">
+                <label for="status">read?</label>
+                <input type="checkbox" id="statuss" name="status" value="">
+            </div>
+            <button type="submit" id="addBtn">submit</button> 
+    </form>
+</div>
+    <button type="button" id="newBtn">New book</button>
+    
+    <div id="books">
+    </div>
+
+
+
+    <script src="/js.js"></script>
+</body>
+</html>
